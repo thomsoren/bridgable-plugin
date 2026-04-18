@@ -1,0 +1,9 @@
+{
+  "name": "bridgable",
+  "version": "0.1.0",
+  "description": "Search OpenBridge web component docs and get framework-specific setup guidance.",
+  "author": {
+    "name": "Bridgable"
+  },
+  "homepage": "https://mcp.bridgable.no"
+}

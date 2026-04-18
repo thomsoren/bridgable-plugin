@@ -1,0 +1,11 @@
+{
+  "name": "bridgable",
+  "version": "0.1.0",
+  "description": "Search OpenBridge web component docs and get framework-specific setup guidance.",
+  "mcpServers": {
+    "bridgable": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote@latest", "https://mcp.bridgable.no/mcp"]
+    }
+  }
+}
