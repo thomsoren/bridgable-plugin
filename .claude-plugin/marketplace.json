@@ -2,10 +2,15 @@
   "name": "bridgable",
   "description": "Bridgable plugin marketplace — OpenBridge component search + setup guidance for your coding assistant.",
   "homepage": "https://bridgable.ai",
+  "owner": {
+    "name": "Bridgable",
+    "email": "support@bridgable.ai",
+    "url": "https://bridgable.ai"
+  },
   "plugins": [
     {
       "name": "bridgable",
-      "description": "Search OpenBridge component docs and get framework-specific setup instructions. Paid Bridgable subscription required.",
+      "description": "Search OpenBridge component docs and get framework-specific setup instructions. 25 free queries/mo, then $20/mo Pro.",
       "source": "./bridgable",
       "category": "Productivity",
       "homepage": "https://bridgable.ai"
