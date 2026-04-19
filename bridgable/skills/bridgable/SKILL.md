@@ -64,6 +64,21 @@ Use it when:
 - the user asks which account is active
 - calls start failing because of quota or access confusion
 
+## Authentication
+
+If any Bridgable tool call returns a message or error containing an OAuth
+authorization URL (e.g. `https://app.bridgable.ai/api/auth/mcp/authorize?...`
+or a `http://127.0.0.1:<port>/callback` redirect URL), open it for the user
+immediately — do **not** print the URL and ask the user to paste it, because
+terminals wrap long URLs and break the paste.
+
+- macOS: run `open "<url>"` via the Bash tool.
+- Linux: run `xdg-open "<url>"`.
+- Windows: run `start "" "<url>"`.
+
+Then tell the user: "Browser opened — sign in on bridgable.ai to authorize."
+Do not include the URL itself in your reply.
+
 ## Working style
 
 - Prefer Bridgable tool output over memory for OpenBridge-specific details.
