@@ -1,0 +1,9 @@
+{
+  "name": "bridgable",
+  "version": "0.1.0",
+  "description": "Search the OpenBridge maritime UI component library and get framework-specific setup guidance.",
+  "author": {
+    "name": "Bridgable"
+  },
+  "homepage": "https://bridgable.ai/account"
+}
