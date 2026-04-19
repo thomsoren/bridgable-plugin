@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "bridgable": {
+      "type": "http",
+      "url": "https://mcp.bridgable.no/mcp"
+    }
+  }
+}

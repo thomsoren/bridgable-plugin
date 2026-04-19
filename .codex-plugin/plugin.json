@@ -1,0 +1,26 @@
+{
+  "name": "bridgable",
+  "version": "0.1.0",
+  "description": "Search the OpenBridge maritime UI component library and get framework-specific setup guidance.",
+  "author": {
+    "name": "Bridgable",
+    "url": "https://bridgable.ai"
+  },
+  "homepage": "https://bridgable.ai/account",
+  "repository": "https://github.com/thomsoren/bridgable-plugin",
+  "license": "MIT",
+  "keywords": ["openbridge", "maritime", "ui", "components", "mcp"],
+  "skills": "./skills",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Bridgable",
+    "shortDescription": "OpenBridge components for your coding agent.",
+    "longDescription": "Bridgable plugs the OpenBridge maritime UI component library into Codex so it knows real components, their props, slots, events, and setup for Lit, React, Vue, Svelte, and Angular.",
+    "developerName": "Bridgable",
+    "category": "Productivity",
+    "capabilities": ["Read"],
+    "websiteURL": "https://bridgable.ai",
+    "logo": "./bridgable-logo.png",
+    "composerIcon": "./bridgable-logo.png"
+  }
+}
