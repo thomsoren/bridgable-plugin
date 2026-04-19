@@ -8,7 +8,7 @@
       "name": "bridgable",
       "source": {
         "source": "local",
-        "path": "./"
+        "path": "./plugins/bridgable"
       },
       "policy": {
         "installation": "AVAILABLE",
