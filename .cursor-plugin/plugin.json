@@ -6,5 +6,5 @@
     "name": "Bridgable"
   },
   "homepage": "https://bridgable.ai/account",
-  "icon": "https://bridgable.ai/bridgable-logo.png"
+  "logo": "./bridgable-logo.png"
 }
