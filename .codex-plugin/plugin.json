@@ -4,13 +4,14 @@
   "description": "Search the OpenBridge maritime UI component library and get framework-specific setup guidance.",
   "author": {
     "name": "Bridgable",
+    "email": "support@bridgable.ai",
     "url": "https://bridgable.ai"
   },
   "homepage": "https://bridgable.ai/account",
   "repository": "https://github.com/thomsoren/bridgable-plugin",
   "license": "MIT",
   "keywords": ["openbridge", "maritime", "ui", "components", "mcp"],
-  "skills": "./skills",
+  "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Bridgable",
@@ -20,6 +21,11 @@
     "category": "Productivity",
     "capabilities": ["Read"],
     "websiteURL": "https://bridgable.ai",
+    "defaultPrompt": [
+      "Find the OpenBridge component for a given UI pattern.",
+      "Show me how to set up OpenBridge in React.",
+      "Explain the props and events for an OpenBridge component."
+    ],
     "logo": "./bridgable-logo.png",
     "composerIcon": "./bridgable-logo.png"
   }
