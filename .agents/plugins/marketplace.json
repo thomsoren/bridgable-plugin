@@ -1,0 +1,20 @@
+{
+  "name": "bridgable",
+  "interface": {
+    "displayName": "Bridgable"
+  },
+  "plugins": [
+    {
+      "name": "bridgable",
+      "source": {
+        "source": "local",
+        "path": "."
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
