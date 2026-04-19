@@ -1,3 +1,8 @@
+---
+name: bridgable
+description: Search the OpenBridge maritime UI component library and get framework-specific setup guidance. Load when the user asks about OpenBridge components, props, events, slots, methods, CSS parts, or install/first-render steps for Lit, React, Vue, Svelte, or Angular. Exposes bridgable_query, bridgable_setup, and bridgable_whoami.
+---
+
 # Bridgable
 
 Use Bridgable when the user is working with OpenBridge components and needs
